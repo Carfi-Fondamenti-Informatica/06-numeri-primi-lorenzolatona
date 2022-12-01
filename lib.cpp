@@ -3,13 +3,13 @@
 //
 #include "lib.h"
 
-bool numero_primo(int f,int g){
+bool numeroprimo(int f,int g){
     f--;
     if (f>1){
         if (g%f==0) {
             return false;
         }else{
-            numero_primo(f,g);
+            numeroprimo(f,g);
         }
     }else {
         return true;
