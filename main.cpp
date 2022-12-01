@@ -1,5 +1,5 @@
 //
-// Created by Lorenzo Latona Schettini on 01/12/2022
+// Created by Lorenzo Latona on 01/12/2022
 //
 
 #include <iostream>
@@ -10,10 +10,9 @@ int main() {
     int x=0;
     cin >>x;
     if (numero_primo (x,x)) {
-        cout << "numero primo" << endl;
-        } else {
-            cout << "numero non primo" << endl;
+        cout<<"numero primo"<<endl;
+    }else{
+        cout<<"numero non primo"<<endl;
     }
-    return 0;
-
+    return 0;
 }
