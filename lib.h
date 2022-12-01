@@ -1,3 +1,7 @@
+//
+// Created by Lorenzo Latona Schettini on 01/12/2022
+//
+
 #ifndef ESERCITAZIONE6
 #define ESERCITAZIONE6
 bool numero_primo (int,int);
