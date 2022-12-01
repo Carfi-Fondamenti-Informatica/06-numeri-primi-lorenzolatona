@@ -1,6 +1,7 @@
 //
-// Created by Lorenzo Latona Schettini on 01/12/2022
+// Created by Lorenzo Latona on 01/12/2022.
 //
+
 
 bool numero_primo(int x,int y){
     x--;
@@ -11,6 +12,7 @@ bool numero_primo(int x,int y){
             numero_primo(x,y);
         }
     }else {
-        return true;
-    }
+        return true;
+    }
 }
+
