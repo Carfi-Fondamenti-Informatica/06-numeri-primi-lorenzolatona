@@ -2,6 +2,7 @@
 // Created by Lorenzo Latona on 01/12/2022
 //
 
+
 bool numero_primo(int x,int y){
     x--;
     if(x>1){
